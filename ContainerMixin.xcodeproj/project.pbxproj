@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFA4C8A71E61D0320031FD59 /* SectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C8A61E61D0320031FD59 /* SectionContainer.swift */; };
 		BFAC39331E61C821005ECB1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC39321E61C821005ECB1F /* AppDelegate.swift */; };
 		BFAC39351E61C821005ECB1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC39341E61C821005ECB1F /* ViewController.swift */; };
 		BFAC39381E61C821005ECB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAC39361E61C821005ECB1F /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BFA4C8A61E61D0320031FD59 /* SectionContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionContainer.swift; sourceTree = "<group>"; };
 		BFAC392F1E61C821005ECB1F /* ContainerMixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerMixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC39321E61C821005ECB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAC39341E61C821005ECB1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFA4C8A81E61D0390031FD59 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC39521E61CB9E005ECB1F /* CollectionExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		BFA4C8A91E61D0420031FD59 /* Mixin */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4C8A61E61D0320031FD59 /* SectionContainer.swift */,
+			);
+			name = Mixin;
+			sourceTree = "<group>";
+		};
 		BFAC39261E61C821005ECB1F = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +106,8 @@
 			children = (
 				BFAC39321E61C821005ECB1F /* AppDelegate.swift */,
 				BFAC39341E61C821005ECB1F /* ViewController.swift */,
-				BFAC39521E61CB9E005ECB1F /* CollectionExtension.swift */,
+				BFA4C8A91E61D0420031FD59 /* Mixin */,
+				BFA4C8A81E61D0390031FD59 /* Extension */,
 				BFAC39361E61C821005ECB1F /* Main.storyboard */,
 				BFAC39391E61C821005ECB1F /* Assets.xcassets */,
 				BFAC393B1E61C821005ECB1F /* LaunchScreen.storyboard */,
@@ -183,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAC39351E61C821005ECB1F /* ViewController.swift in Sources */,
+				BFA4C8A71E61D0320031FD59 /* SectionContainer.swift in Sources */,
 				BFAC39331E61C821005ECB1F /* AppDelegate.swift in Sources */,
 				BFAC39531E61CB9E005ECB1F /* CollectionExtension.swift in Sources */,
 			);
@@ -354,6 +374,7 @@
 				BFAC39431E61C822005ECB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,10 +25,10 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oBw-bs-RsM">
                                 <rect key="frame" x="16" y="72" width="343" height="29"/>
                                 <segments>
-                                    <segment title="A"/>
-                                    <segment title="B"/>
-                                    <segment title="C"/>
-                                    <segment title="D"/>
+                                    <segment title="Red"/>
+                                    <segment title="Blue"/>
+                                    <segment title="Green"/>
+                                    <segment title="Purple"/>
                                 </segments>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZy-tN-sOn">
