@@ -17,7 +17,7 @@ enum Section: Int {
     case purple
 }
 
-class ViewController: UIViewController, SectionContainer {
+class ViewController: UIViewController, SectionContainerTrait {
 
     @IBOutlet weak var containerSegmentedController: UISegmentedControl!
     @IBOutlet weak var containerView: UIView!

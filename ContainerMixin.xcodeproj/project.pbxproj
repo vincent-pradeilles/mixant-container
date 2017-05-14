@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFA4C8A71E61D0320031FD59 /* SectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C8A61E61D0320031FD59 /* SectionContainer.swift */; };
+		BFA4C8A71E61D0320031FD59 /* SectionContainerTrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C8A61E61D0320031FD59 /* SectionContainerTrait.swift */; };
 		BFAC39331E61C821005ECB1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC39321E61C821005ECB1F /* AppDelegate.swift */; };
 		BFAC39351E61C821005ECB1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC39341E61C821005ECB1F /* ViewController.swift */; };
 		BFAC39381E61C821005ECB1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAC39361E61C821005ECB1F /* Main.storyboard */; };
@@ -39,7 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BFA4C8A61E61D0320031FD59 /* SectionContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionContainer.swift; sourceTree = "<group>"; };
+		BFA4C8A61E61D0320031FD59 /* SectionContainerTrait.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionContainerTrait.swift; sourceTree = "<group>"; };
 		BFAC392F1E61C821005ECB1F /* ContainerMixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerMixin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC39321E61C821005ECB1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAC39341E61C821005ECB1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		BFA4C8A91E61D0420031FD59 /* Mixin */ = {
 			isa = PBXGroup;
 			children = (
-				BFA4C8A61E61D0320031FD59 /* SectionContainer.swift */,
+				BFA4C8A61E61D0320031FD59 /* SectionContainerTrait.swift */,
 			);
 			name = Mixin;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAC39351E61C821005ECB1F /* ViewController.swift in Sources */,
-				BFA4C8A71E61D0320031FD59 /* SectionContainer.swift in Sources */,
+				BFA4C8A71E61D0320031FD59 /* SectionContainerTrait.swift in Sources */,
 				BFAC39331E61C821005ECB1F /* AppDelegate.swift in Sources */,
 				BFAC39531E61CB9E005ECB1F /* CollectionExtension.swift in Sources */,
 			);
