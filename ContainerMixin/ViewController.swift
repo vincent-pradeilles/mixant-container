@@ -10,15 +10,15 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-enum Section: Int {
-    case red
-    case blue
-    case green
-    case purple
-}
-
 class ViewController: UIViewController, SectionContainerTrait {
 
+    enum Section: Int {
+        case red
+        case blue
+        case green
+        case purple
+    }
+    
     @IBOutlet weak var containerSegmentedController: UISegmentedControl!
     @IBOutlet weak var containerView: UIView!
     

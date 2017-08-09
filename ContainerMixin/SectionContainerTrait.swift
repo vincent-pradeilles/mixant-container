@@ -18,6 +18,8 @@ protocol SectionContainerTrait: class {
     var currentSection: T? { get set }
     
     var disposeBag: DisposeBag { get }
+    
+    func createSectionViewControllers()
 }
 
 extension SectionContainerTrait where Self: UIViewController, T.RawValue == Int {
@@ -29,13 +31,13 @@ extension SectionContainerTrait where Self: UIViewController, T.RawValue == Int 
             .asDriver()
             .drive(onNext: { (newSelectedIndex) in
                 if let newSection = T(rawValue: newSelectedIndex) {
-                    self.transition(toSection: newSection)
+                    self.transition(to: newSection)
                 }
             })
             .addDisposableTo(disposeBag)
     }
     
-    fileprivate func transition(toSection section: T) {
+    private func transition(to section: T) {
         if let newSectionViewController = sectionViewControllers[safe: section.rawValue] {
             
             let currentSectionViewController: UIViewController?
@@ -64,5 +66,4 @@ extension SectionContainerTrait where Self: UIViewController, T.RawValue == Int 
             })
         }
     }
-    
 }
